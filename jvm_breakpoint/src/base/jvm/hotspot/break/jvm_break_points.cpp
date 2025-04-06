@@ -79,6 +79,7 @@ auto jvm_break_points::set_breakpoint_with_original_code(
 	uint8_t* bytecode_address = method->get_const_method()->get_bytecode_start() + offset;
 	unsigned int bytecode = *bytecode_address;
 	const auto address = reinterpret_cast<uintptr_t>(bytecode_address);
+
 	if (bytecode == static_cast<uint8_t>(java_runtime::bytecodes::_breakpoint)) {
 		bytecode = original_bytecodes[address];
 	}

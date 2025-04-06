@@ -75,6 +75,9 @@
     <ClCompile Include="src\utils\pattern.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\utils\jvm_utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\base\jvm\hotspot\break\break_point_info.h">
@@ -186,6 +189,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\utils\pattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\jvm_utility.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

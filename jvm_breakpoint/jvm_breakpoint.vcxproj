@@ -169,6 +169,7 @@
     <ClCompile Include="src\base\jvm\hotspot\utility\jvm_static.cpp" />
     <ClCompile Include="src\base\jvm\hotspot\utility\vm_function.cpp" />
     <ClCompile Include="src\base\jvm\hotspot\utility\vm_helper.cpp" />
+    <ClCompile Include="src\utils\jvm_utility.cpp" />
     <ClCompile Include="src\utils\pattern.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +209,7 @@
     <ClInclude Include="src\base\jvm\hotspot\utility\vm_function.h" />
     <ClInclude Include="src\base\jvm\hotspot\utility\vm_helper.h" />
     <ClInclude Include="src\log\LOG.h" />
+    <ClInclude Include="src\utils\jvm_utility.h" />
     <ClInclude Include="src\utils\pattern.h" />
   </ItemGroup>
   <ItemGroup>
